@@ -1,0 +1,15 @@
+@mixin max-desktop {
+  @media only screen and (max-width: 1439px) { @content; }
+}
+
+@mixin max-tablet-portrait {
+  @media only screen and (max-width: 991px) { @content; }
+}
+
+@mixin max-tablet {
+  @media only screen and (max-width: 767px) { @content; }
+}
+
+@mixin max-small {
+  @media only screen and (max-width: 350px) { @content; }
+}
